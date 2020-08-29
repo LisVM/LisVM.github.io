@@ -134,8 +134,9 @@ body {
   font-size: 1.2rem;
 }
 
-.logo__second-title, .logo__third-title {
-  font-family: 'Proxima Nova Light', sans-serif;
+.logo__third-title {
+  font-family: 'Proxima Nova Bold', sans-serif;
+  font-size: 1.3rem;
   margin: 0rem;
 }
 
@@ -236,7 +237,7 @@ body {
 }
 
 .features__img_line1_pic3 {
-  width: 59%;
+  width: 54%;
 }
 
 .features__img_line1_text {
