@@ -10,8 +10,8 @@ a {
   }
   @media screen and (max-width: 430px){
     nav, .brand-container {
-      width: 120%;
-      margin-left: 1rem;
+      width: 110%;
+      margin: 0 1rem;
     }    
   }
   nav input {
