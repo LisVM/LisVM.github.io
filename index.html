@@ -2,15 +2,18 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta content="width=1180" name="viewport" id="viewport">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-menu.css">
+
     <title>ГРАНД ЛОГИСТИК</title>
 </head>
 <body>
-    <header>
-        <nav>
+    <div class="top-panel">
+        <div class="top-panel_nav">
             <div class="container top">
                 <div class="top-phone">
                     <img class="top-phone__icon" src="/img/Слой 0.png" alt="">
@@ -29,8 +32,8 @@
                     </div>
                 </div>
             </div>                
-        </nav>
-    </header>
+        </div>
+    </div>
     <main>
         <div class="section-first">
             <div class="container">
@@ -86,6 +89,79 @@
                 </div>    
             </div>
         </div>
+        <div class="section-third">
+            <header class='masthead'>
+                <div class='brand-container'>
+                  <a href='#'>
+                    <span class='brand-initials'></span>
+                    <span class='brand-name'>Наши услуги</span>
+                  </a>
+                </div>
+                <nav>
+                  <div class='nav-container'>
+                    <div>
+                      <input id='slider1' name='slider1' type='checkbox'>
+                      <label class='slide has-child' for='slider1'>
+                        <span class='element'>Bg</span>
+                        <span class='name'>Blog</span>
+                      </label>
+                      <div class='child-menu'>
+                        <a href='#'>Recent</a>
+                        <a href='#'>Archives</a>
+                        <a href='#'>Categories</a>
+                      </div>
+                    </div>
+                    <div>
+                      <a class='slide' href='#'>
+                        <span class='element'>Po</span>
+                        <span class='name'>Portfolio</span>
+                      </a>
+                    </div>
+                    <div>
+                      <input id='slider2' name='slider2' type='checkbox'>
+                      <label class='slide has-child' for='slider2'>
+                        <span class='element'>Xp</span>
+                        <span class='name'>Laboratory</span>
+                      </label>
+                      <div class='child-menu'>
+                        <a href='#'>PHP</a>
+                        <a href='#'>Javascript</a>
+                        <a href='#'>Css</a>
+                        <a href='#'>Ruby</a>
+                        <a href='#'>Python</a>
+                        <a href='#'>Design</a>
+                      </div>
+                    </div>
+                    <div>
+                      <a class='slide' href='#'>
+                        <span class='element'>Ab</span>
+                        <span class='name'>About</span>
+                      </a>
+                    </div>
+                    <div>
+                      <a class='slide' href='#'>
+                        <span class='element'>C</span>
+                        <span class='name'>Contact</span>
+                      </a>
+                    </div>
+                  </div>
+                </nav>
+                <div class='social-container'>
+                  <span>
+                    <a class='social-roll github' href='#'></a>
+                  </span>
+                  <span>
+                    <a class='social-roll twitter' href='#'></a>
+                  </span>
+                  <span>
+                    <a class='social-roll linkedin' href='#'></a>
+                  </span>
+                  <span>
+                    <a class='social-roll rss' href='#'></a>
+                  </span>
+                </div>
+              </header>
+        </div>
     </main>
     <footer>
         <div class="container">
@@ -99,5 +175,7 @@
             </div>
         </div>
     </footer>
+<script src="js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </body>
 </html>
