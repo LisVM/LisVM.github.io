@@ -35,7 +35,7 @@
     width: 100%;
     padding: 0 20px;
   }
-  .container .features__img_line1, .container .features__img_line2 {
+  .container .features__img_line1, .container .features__img_line2, .container .title {
     width: 120%;
   }
   .container .top-phone, .container .info-1, .container .info-2 {
@@ -129,7 +129,7 @@ body {
 
 .logo__main-title {
   margin: 0rem;
-  font-size: 2.5em;
+  font-size: 2rem;
   font-family: 'Adine Kirnberg Regular', serif;
 }
 
