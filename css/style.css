@@ -32,8 +32,11 @@
 
 @media screen and (max-width: 430px) {
   .container {
-    max-width: 100%;
+    width: 100%;
     padding: 0 20px;
+  }
+  .container .features__img_line1, .container .features__img_line2 {
+    width: 120%;
   }
   .container .top-phone, .container .info-1, .container .info-2 {
     -webkit-box-orient: vertical;
