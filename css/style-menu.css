@@ -125,7 +125,7 @@ a {
     transition-delay: 0.2s, 0s;
   }
   nav .slide .element {
-    font-size: 1.25em;
+    font-size: 1rem;
     font-weight: 600;
     font-style: normal;
     display: block;
@@ -211,9 +211,7 @@ a {
     -webkit-transform: rotateX(180deg);
     transform: rotateX(180deg);
   }
-  
-  @media only screen and (min-width: 48.0625em) {
-    nav {
+  nav {
       display: block;
       table-layout: auto;
     }
@@ -306,8 +304,8 @@ a {
   @media only screen and (min-width: 48.0625em) {
     .masthead {
       position: absolute;
-      top: 0;
-      left: 0;
+      top: 2rem;
+      left: 5px;
       width: 150px;
     }
     .masthead .brand-container {
@@ -317,3 +315,9 @@ a {
       display: block;
     }
   }
+
+/* Информация про услуги */
+
+.content {
+  display: none;
+}
