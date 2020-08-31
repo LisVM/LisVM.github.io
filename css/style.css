@@ -75,6 +75,16 @@ body {
   color: #262626;
 }
 
+.button-close {
+  display: block;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #39da56;
+  text-transform: uppercase;
+  font-family: 'Proxima Nova Bold', sans-serif;
+}
+
 .top-phone {
   display: -webkit-box;
   display: -ms-flexbox;
