@@ -20,7 +20,7 @@ document.querySelector('#main_1').setAttribute('style','position: absolute !impo
 
 //Кнопка "Закрыть"
 
-let clickEl_2 = document.getElementById('button-close');
+let clickEl_2 = document.getElementById('button-close_1');
 clickEl_2.addEventListener('click', function(){
   document.getElementById('main_1').style.display = 'none';
 })
@@ -37,7 +37,7 @@ document.querySelector('#main_2').setAttribute('style','position: absolute !impo
 
 //Кнопка "Закрыть"
 
-let clickEl_4 = document.getElementById('button-close');
+let clickEl_4 = document.getElementById('button-close_2');
 clickEl_4.addEventListener('click', function(){
   document.getElementById('main_2').style.display = 'none';
 })
@@ -53,7 +53,7 @@ clickEl_5.addEventListener('click', function(){
 
 //Кнопка "Закрыть"
 
-let clickEl_6 = document.getElementById('button-close');
+let clickEl_6 = document.getElementById('button-close_3');
 clickEl_6.addEventListener('click', function(){
   document.getElementById('main_3').style.display = 'none';
 })
@@ -69,7 +69,7 @@ clickEl_7.addEventListener('click', function(){
 
 //Кнопка "Закрыть"
 
-let clickEl_8 = document.getElementById('button-close');
+let clickEl_8 = document.getElementById('button-close_4');
 clickEl_8.addEventListener('click', function(){
   document.getElementById('main_4').style.display = 'none';
 })
@@ -85,7 +85,7 @@ document.querySelector('#main_5').setAttribute('style','position: absolute !impo
 
 //Кнопка "Закрыть"
 
-let clickEl_10 = document.getElementById('button-close');
+let clickEl_10 = document.getElementById('button-close_5');
 clickEl_10.addEventListener('click', function(){
   document.getElementById('main_5').style.display = 'none';
 })
