@@ -261,7 +261,6 @@ a {
     nav input:checked ~ .slide {
       border-width: 55px;
     }
-  }
   .masthead {
     font-family: "Open Sans", sans-serif;
   }
