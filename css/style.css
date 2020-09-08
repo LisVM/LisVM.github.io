@@ -195,8 +195,8 @@ body {
 
 .logo__main-title {
   margin: 0rem;
-  font-size: 2rem;
-  font-family: 'Adine Kirnberg Regular', serif;
+  font-size: 3rem;
+  font-family: 'Proxima Nova Bold', sans-serif;
 }
 
 .logo__second-title {
@@ -206,6 +206,8 @@ body {
 .logo__third-title {
   font-family: 'Proxima Nova Bold', sans-serif;
   font-size: 1.3rem;
+  text-transform: uppercase;
+  padding-top: 1rem;
   margin: 0rem;
 }
 
