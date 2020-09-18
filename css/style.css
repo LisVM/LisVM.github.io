@@ -180,6 +180,12 @@ body {
           justify-content: space-between;
   min-height: 5rem;
   padding: 1rem;
+  background-image: url(../img/logistics.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  background-origin: content-box;
+  min-height: 32rem;
 }
 
 .logo__picture {
@@ -227,6 +233,10 @@ body {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  background-image: url(../img/logistic-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .info-1__text {
@@ -354,5 +364,9 @@ body {
   display: block;
   text-transform: uppercase;
   margin-top: 1rem;
+}
+
+.company {
+  margin-left: 5rem;
 }
 /*# sourceMappingURL=style.css.map */
