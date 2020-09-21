@@ -1,12 +1,13 @@
 .top-phone
     display: flex
     align-items: center
-    //background: rgb(190, 250, 190)
-    padding: 2rem 5rem 0rem 5rem
+    justify-content: center
+    padding: 1rem 5rem 0rem 5rem
     &__icon
         width: 3rem
-        margin-right: 1.5rem
+        margin-left: 1.5rem
     &__phone
+        margin-left: 1rem
         text-decoration: none
         +bold
         color: $text-color
@@ -14,25 +15,13 @@
     &__info
         margin-left: 1.5rem
         font-size: 1.2rem
-.navbar
-    &-wrap
-        display: flex
-        align-items: center
-        justify-content: space-between 
-        min-height: 5rem
-        //background: #f2faf2
-        //background: rgb(190, 250, 190)
-        padding: 1rem
-        background-image: url(../img/logistics.jpg) 
-        background-repeat: no-repeat
-        background-position: left
-        background-size: cover
-        background-origin: content-box
-        min-height: 32rem
 .logo
     &__picture
-        width: 10rem
+        width: 5rem
         padding-left: 2rem
+    &__name
+        margin-left: 1rem
+        +bold
     &__title
         margin-right: auto
         +bold
@@ -41,6 +30,7 @@
         margin: 0rem
         font-size: 3rem
         +bold
+        
     &__second-title
         font-size: 1.2rem
     &__third-title
@@ -54,6 +44,27 @@
         color: $text-color
         +bold   
         padding-right: 2rem
+.navbar
+    &-wrap
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+        justify-content: space-between 
+        padding: 1rem
+        background-image: url(../img/logistics.jpg)
+        background-color: #fffff
+        background-repeat: no-repeat
+        background-position: left
+        background-size: 90% 100%
+        margin-left: 12rem
+        //background-origin: content-box
+        min-height: 32rem
+        .info-1__text
+            //display: block
+            color: $text-black
+            font-size: 1.5rem
+            text-transform: uppercase
+
 
 
     

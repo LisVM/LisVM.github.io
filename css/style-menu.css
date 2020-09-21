@@ -303,8 +303,8 @@ a {
   @media only screen and (min-width: 48.0625em) {
     .masthead {
       position: absolute;
-      top: 6rem;
-      left: 10px;
+      top: 4.7rem;
+      left: 10rem;
       width: 120px;
     }
     .masthead .brand-container {

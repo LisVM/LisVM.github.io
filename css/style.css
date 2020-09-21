@@ -148,15 +148,19 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2rem 5rem 0rem 5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem 5rem 0rem 5rem;
 }
 
 .top-phone__icon {
   width: 3rem;
-  margin-right: 1.5rem;
+  margin-left: 1.5rem;
 }
 
 .top-phone__phone {
+  margin-left: 1rem;
   text-decoration: none;
   font-family: 'Proxima Nova Bold', sans-serif;
   color: #262626;
@@ -168,29 +172,14 @@ body {
   font-size: 1.2rem;
 }
 
-.navbar-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  min-height: 5rem;
-  padding: 1rem;
-  background-image: url(../img/logistics.jpg);
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: cover;
-  background-origin: content-box;
-  min-height: 32rem;
+.logo__picture {
+  width: 5rem;
+  padding-left: 2rem;
 }
 
-.logo__picture {
-  width: 10rem;
-  padding-left: 2rem;
+.logo__name {
+  margin-left: 1rem;
+  font-family: 'Proxima Nova Bold', sans-serif;
 }
 
 .logo__title {
@@ -224,46 +213,32 @@ body {
   padding-right: 2rem;
 }
 
-.info-1 {
+.navbar-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background-image: url(../img/logistic-1.jpg);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+  background-image: url(../img/logistics.jpg);
+  background-color: #fffff;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-position: left;
+  background-size: 90% 100%;
+  margin-left: 12rem;
+  min-height: 32rem;
 }
 
-.info-1__text {
+.navbar-wrap .info-1__text {
   color: #000000;
   font-size: 1.5rem;
   text-transform: uppercase;
-}
-
-.info-2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin-top: -5rem;
-}
-
-.info-2__text {
-  color: #000000;
-  font-size: 1.5rem;
-}
-
-.info-2__img_pic {
-  width: 70%;
 }
 
 .section-second {
@@ -367,6 +342,7 @@ body {
 }
 
 .company {
-  margin-left: 5rem;
+  margin-left: 2rem;
+  padding: 0rem 4rem 0rem 10rem;
 }
 /*# sourceMappingURL=style.css.map */
