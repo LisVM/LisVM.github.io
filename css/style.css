@@ -240,6 +240,41 @@ body {
   text-transform: uppercase;
 }
 
+.features {
+  margin-top: 4rem;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cards .card {
+  display: inline;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.cards .img {
+  border-radius: 5px 5px 0 0;
+}
+
+.cards .card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cards .box {
+  padding: 2px 16px;
+}
+
 .section-second {
   margin-bottom: 2rem;
 }
