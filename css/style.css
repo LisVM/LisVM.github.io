@@ -241,7 +241,8 @@ body {
 }
 
 .features {
-  margin-top: 4rem;
+  margin-top: 1rem;
+  padding: 1.5rem;
 }
 
 .features__text {
