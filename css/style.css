@@ -244,22 +244,32 @@ body {
   margin-top: 4rem;
 }
 
+.features__text {
+  text-align: center;
+  font-family: 'Proxima Nova Bold', sans-serif;
+  font-size: 1.5rem;
+}
+
 .cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .cards .card {
-  display: inline;
+  width: 25%;
+  text-align: center;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'Proxima Nova Bold', sans-serif;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  border-radius: 5px;
+  border-radius: 1rem;
 }
 
 .cards .img {
@@ -375,8 +385,7 @@ body {
   margin-top: 1rem;
 }
 
-.company {
-  margin-left: 2rem;
-  padding: 0rem 4rem 0rem 10rem;
+footer {
+  margin-top: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
