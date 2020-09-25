@@ -8,24 +8,45 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 1199px) {
   .container {
     max-width: 70%;
   }
+  .logo__third-title {
+    margin: 0 !important;
+  }
 }
 
-@media screen and (max-width: 1028px) {
+@media screen and (max-width: 1075px) {
   .container {
     max-width: 70%;
+  }
+  .logo__title {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .logo__main-title {
+    font-size: 1.5rem !important;
+  }
+  .logo__third-title {
+    font-size: 1rem !important;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .logo__third-title {
-    font-size: 1rem !important;
+  .logo__title {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
   .logo__main-title {
     font-size: 1.5rem !important;
+  }
+  .logo__third-title {
+    font-size: 1rem !important;
   }
   .features__text {
     font-size: 1rem !important;
@@ -39,11 +60,17 @@
 }
 
 @media screen and (max-width: 710px) {
-  .logo__third-title {
-    font-size: 1rem !important;
+  .logo__title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .logo__main-title {
     font-size: 1.5rem !important;
+  }
+  .logo__third-title {
+    font-size: 1rem !important;
   }
   .top-phone {
     -webkit-box-orient: vertical;
@@ -51,17 +78,26 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .top-phone__icon {
+    margin-left: 0 !important;
+  }
 }
 
 @media screen and (max-width: 524px) {
-  .logo__third-title {
-    font-size: 1rem !important;
+  .logo__title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .logo__main-title {
     font-size: 1.5rem !important;
   }
-  .container {
-    margin: 0 auto !important;
+  .logo__third-title {
+    font-size: 0.7rem !important;
+  }
+  .top-phone__icon {
+    margin-left: 0 !important;
   }
   .cards {
     -webkit-box-orient: vertical;
@@ -81,6 +117,7 @@
   }
   .container {
     width: 100% !important;
+    margin: 0 auto !important;
   }
   .features {
     width: 100% !important;
@@ -147,7 +184,7 @@ body {
 
 .top-phone__icon {
   width: 3rem;
-  margin-left: 1.5rem;
+  margin-left: 2rem;
 }
 
 .top-phone__phone {
@@ -164,8 +201,7 @@ body {
 }
 
 .logo__picture {
-  width: 5rem;
-  padding-left: 2rem;
+  width: 3rem;
 }
 
 .logo__name {
@@ -174,27 +210,27 @@ body {
 }
 
 .logo__title {
-  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-family: 'Proxima Nova Bold', sans-serif;
-  padding-left: 2rem;
 }
 
 .logo__main-title {
-  margin: 0rem;
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: 'Proxima Nova Bold', sans-serif;
-}
-
-.logo__second-title {
-  font-size: 1.2rem;
+  padding-right: 0.5rem;
 }
 
 .logo__third-title {
   font-family: 'Proxima Nova Bold', sans-serif;
   font-size: 1.3rem;
   text-transform: uppercase;
-  padding-top: 1rem;
-  margin: 0rem;
+  padding-left: 0.5rem;
+  border-left: 2px solid black;
 }
 
 .logo__phone {
@@ -210,9 +246,8 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -224,9 +259,11 @@ body {
 }
 
 .navbar-wrap .info-1__text {
+  width: 85%;
   color: #000000;
   font-size: 1.5rem;
   text-transform: uppercase;
+  margin-bottom: 8rem;
 }
 
 .features {

@@ -4,41 +4,62 @@
 .container
     max-width: 70%
     margin: 0 auto
-@media screen and (max-width: 1199px)
+@media screen and (min-width: 1199px)
     .container
         max-width: 70%
-  
-@media screen and (max-width: 1028px)
-    .container
-        max-width: 70%
-   
-@media screen and (max-width: 900px)
+    .logo__main-title
+        
     .logo__third-title
-        font-size: 1rem !important
+        margin: 0 !important
+           
+  
+@media screen and (max-width: 1075px)
+    .container
+        max-width: 70%
+    .logo__title
+        flex-direction: row
     .logo__main-title
         font-size: 1.5rem !important
+    .logo__third-title        
+        font-size: 1rem !important
+
+@media screen and (max-width: 900px)
+    .logo__title
+        flex-direction: row
+    .logo__main-title
+        font-size: 1.5rem !important
+    .logo__third-title
+        font-size: 1rem !important
     .features__text
         font-size: 1rem !important 
     .box__text
         font-size: 0.5rem !important
     .navbar-wrap
         margin-left: 0rem !important
-
+    
 @media screen and (max-width: 710px)
-    .logo__third-title
-        font-size: 1rem !important
+    .logo__title
+        flex-direction: column
     .logo__main-title
         font-size: 1.5rem !important
+    .logo__third-title
+        font-size: 1rem !important
     .top-phone
         flex-direction: column
+    .top-phone__icon
+        margin-left: 0 !important
 
 @media screen and (max-width: 524px)
-    .logo__third-title
-        font-size: 1rem !important
+    .logo__title
+        flex-direction: column
     .logo__main-title
         font-size: 1.5rem !important
-    .container
-        margin: 0 auto !important
+    .logo__third-title
+        font-size: 0.7rem !important
+    .top-phone__icon
+        margin-left: 0 !important
+    // .container
+    //     margin: 0 auto !important
     .cards
         flex-direction: column
         align-items: center
@@ -49,6 +70,7 @@
         width: 100% !important
     .container
         width: 100% !important
+        margin: 0 auto !important
     .features 
         width: 100% !important
         margin-top: 0rem !important

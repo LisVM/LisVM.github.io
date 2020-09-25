@@ -2,11 +2,10 @@
     display: flex
     align-items: center
     justify-content: center
-    margin-top: 1rem
-    
+    margin-top: 1rem    
     &__icon
         width: 3rem
-        margin-left: 1.5rem
+        margin-left: 2rem
     &__phone
         margin-left: 1rem
         text-decoration: none
@@ -18,28 +17,28 @@
         font-size: 1.2rem
 .logo
     &__picture
-        width: 5rem
-        padding-left: 2rem
+        width: 3rem
     &__name
         margin-left: 1rem
-        +bold
+        +bold    
     &__title
-        margin-right: auto
+        display: flex
+        justify-content: center 
         +bold
-        padding-left: 2rem
     &__main-title
-        margin: 0rem
-        font-size: 3rem
-        +bold
-        
-    &__second-title
-        font-size: 1.2rem
+        //margin-top: -5rem
+        font-size: 2rem
+        +bold  
+        //border-right: 2px solid black 
+        padding-right: 0.5rem              
+    // &__second-title
+    //     font-size: 1.2rem
     &__third-title
         +bold
         font-size: 1.3rem
         text-transform: uppercase
-        padding-top: 1rem
-        margin: 0rem    
+        padding-left: 0.5rem
+        border-left: 2px solid black
     &__phone
         text-decoration: none 
         color: $text-color
@@ -49,7 +48,7 @@
     &-wrap
         display: flex
         flex-wrap: wrap
-        align-items: center
+        align-content: space-between
         justify-content: space-between 
         padding: 1rem
         background-image: url(../img/Logistics.jpg)
@@ -59,10 +58,11 @@
         margin-left: 12rem
         min-height: 32rem
         .info-1__text
-            //display: block
+            width: 85%
             color: $text-black
             font-size: 1.5rem
             text-transform: uppercase
+            margin-bottom: 8rem
 
 
 
